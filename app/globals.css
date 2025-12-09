@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --grey: #232323;
+  --darkblue: #052838;
 }
 
 @theme inline {
@@ -10,6 +12,10 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-bold: var(--font-TheBoldFont);
+  --font-PSP: var(--font-ThePSPFont);
+  --font-KD: var(--font-TheK2DFont);
+  --font-SL: var(--font-TheStaatlichesFont);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +29,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }

@@ -1,6 +1,34 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono} from "next/font/google";
+import { Press_Start_2P } from "next/font/google";
+import { K2D, Staatliches } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar";
+import localFont from "next/font/local";
+
+
+const TheBoldFont = localFont({
+  src: '../public/fonts/TheBoldFont.woff',
+  variable: "--font-TheBoldFont",
+})
+
+const TheStaatlichesFont = Staatliches({
+  subsets: ["latin"],
+  weight: '400',
+  variable: "--font-TheStaatlichesFont",
+})
+
+const TheK2DFont = K2D({
+  subsets: ["latin"],
+  weight: '400',
+  variable: "--font-TheK2DFont",
+});
+
+const PSP = Press_Start_2P({
+  variable: "--font-ThePSPFont",
+  subsets: ["latin"],
+  weight: '400',
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +53,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased ${TheBoldFont.variable} ${PSP.variable} ${TheK2DFont.variable} ${TheStaatlichesFont.variable}`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
