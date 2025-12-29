@@ -56,7 +56,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${TheBoldFont.variable} ${PSP.variable} ${TheK2DFont.variable} ${TheStaatlichesFont.variable}`}
       >
         <Navbar />
-        {children}
+          {children}
       </body>
     </html>
   );

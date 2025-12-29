@@ -10,16 +10,12 @@ export default function Navbar() {
             {/* <div className="absolute w-full h-[20vh] translate-y-[72px] z-100 bg-gradient-to-b from-black/70 to-transparent" /> */}
             <div className="flex flex-row justify-between md:px-8 lg:px-12 xl:px-20 py-5 min-h-[72px]">
                 <div className="flex-1 max-w-[500px] hidden md:flex flex-row justify-start gap-6 md:gap-14 lg:gap-27 xl:gap-50">
-                    <button 
-                        onClick={() => {
-                            const section = document.getElementById("about");
-                            if (section) {
-                            section.scrollIntoView({ behavior: "smooth" });
-                            }
-                        }}
+                    <a 
+                        href="/"
+                        
                     >
-                        About Us
-                    </button> 
+                        Home
+                    </a> 
                     <a href="/">Events</a>
                 </div>
                 {
@@ -33,7 +29,7 @@ export default function Navbar() {
                 
 
                 <div className="flex-1 max-w-[500px] hidden md:flex flex-row justify-end gap-6 md:gap-14 lg:gap-27 xl:gap-50">
-                    <a href="/" className="">Games</a> 
+                    <a href="/games" className="">Games</a> 
                     <a href="/">Resources</a> 
                 </div>
                 <button className="md:hidden z-101 px-5 absolute" onClick={() => setOpen(!open)}>
