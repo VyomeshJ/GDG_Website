@@ -14,9 +14,8 @@ export default function Home() {
   };
 
   return (
-    <div
-      className="w-screen h-screen flex items-center justify-center bg-[#232323]"
-    >
+    <div className="w-screen h-screen flex flex-col items-center justify-center bg-[#232323] px-4">
+      {/* Iframe container */}
       <div
         ref={containerRef}
         className="relative"
@@ -37,6 +36,11 @@ export default function Home() {
           allow="fullscreen; autoplay; gamepad"
         />
       </div>
+
+      {/* Centered text below iframe */}
+      <h2 className="text-white text-lg font-bold mt-4 text-center">
+        The game may take some time to load
+      </h2>
     </div>
   );
 }
