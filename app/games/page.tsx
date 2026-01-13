@@ -19,7 +19,7 @@ export default function Home() {
         {games.map((game) => (
           <Link
             key={game.id}
-            href={`https://gdg-website-kappa.vercel.app/games/${game.id}`}
+            href={`https://gdg-website-kappa.vercel.app/gamess/${game.id}`}
             className={`rounded-xl overflow-hidden ${game.bg} group shadow-lg`}
           >
             {/* Image */}
