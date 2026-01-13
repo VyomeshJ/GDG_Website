@@ -34,7 +34,7 @@ export default function Home() {
             </div>
 
             {/* Title */}
-            <div className="p-4 bg-black/60 text-white">
+            <div className="p-4 bg-[#232323] text-white">
               <h3 className="text-lg font-bold">{game.title}</h3>
             </div>
           </a>
