@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <header className="fixed top-0 left-0 w-full bg-[var(--grey)] font-bold text-2xl shadow shadow-xl z-200">
             {/* <div className="absolute w-full h-[20vh] translate-y-[72px] z-100 bg-gradient-to-b from-black/70 to-transparent" /> */}
-            <div className="flex flex-row justify-between md:px-8 lg:px-12 xl:px-20 py-5 min-h-[72px]">
+            <div className="flex flex-row justify-around md:px-8 lg:px-12 xl:px-20 py-5 min-h-[72px]">
                 <div className="flex-1 max-w-[500px] hidden md:flex flex-row justify-start gap-6 md:gap-14 lg:gap-27 xl:gap-50">
                     <a 
                         href="/"
@@ -32,7 +32,7 @@ export default function Navbar() {
                     <a href="/games" className="">Games</a> 
                     <a href="/">Resources</a> 
                 </div>
-                <button className="md:hidden z-101 px-5 absolute" onClick={() => setOpen(!open)}>
+                <button className="md:hidden absolute left-4 top-1/2 -translate-y-1/2 z-101" onClick={() => setOpen(!open)}>
                     <div className="space-y-1">
                         <span className="block h-1 w-8 bg-white"></span>
                         <span className="block h-1 w-8 bg-white"></span>

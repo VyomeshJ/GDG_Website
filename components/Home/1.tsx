@@ -16,7 +16,7 @@ export default function One({overlay, showOverlay}: OneProps){
                 <h3 className="font-PSP text-[#9B5BDB] text-2xl">
                     Welcome to UoA's...
                 </h3>
-                <h1 className="font-bold text-white text-7xl">
+                <h1 className="font-bold text-white text-5xl md:text-7xl">
                     Game Developer Guild
                 </h1>
                 <h3 className="font-PSP text-[#AEF7EE] text-3xl">
