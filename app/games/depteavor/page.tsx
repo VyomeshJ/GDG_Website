@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <div
-      className="w-screen h-screen flex items-center justify-center bg-black"
+      className="w-screen h-screen flex items-center justify-center bg-[#232323]"
     >
       <div
         ref={containerRef}
@@ -27,7 +27,7 @@ export default function Home() {
           onClick={enterFullscreen}
           className="absolute top-2 right-2 z-10 px-3 py-1 text-sm bg-black/70 text-white rounded"
         >
-          Fullscreen
+          ⛶
         </button>
 
         {/* Game iframe */}

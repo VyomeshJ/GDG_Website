@@ -1,20 +1,44 @@
 'use client'
-import Image from "next/image";
 
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
+  const games = [
+    {
+      id: "depteavor",
+      title: "Depteavor",
+      image: "/GameCovers/depteavor.png",
+      bg: "bg-red-300",
+    },
+  ];
+
   return (
-    <div className="mt-[120px] md:mt-[200px]">
-      <div className="grid grid-cols-3 gap-4">
-        <div className="bg-red-300 p-4">Item 1</div>
-        <div className="bg-green-300 p-4">Item 2</div>
-        <div className="bg-blue-300 p-4">Item 3</div>
-        <div className="bg-red-300 p-4">Item 4</div>
-        <div className="bg-green-300 p-4">Item 5</div>
-        <div className="bg-blue-300 p-4">Item 6</div>
-        {/* add as many items as you want */}
+    <div className="mt-[120px] md:mt-[200px] px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        {games.map((game) => (
+          <Link
+            key={game.id}
+            href={`/games/${game.id}`}
+            className={`rounded-xl overflow-hidden ${game.bg} group shadow-lg`}
+          >
+            {/* Image */}
+            <div className="relative aspect-video">
+              <Image
+                src={game.image}
+                alt={game.title}
+                fill
+                className="object-cover group-hover:scale-102 transition-transform duration-300"
+              />
+            </div>
+
+            {/* Title */}
+            <div className="p-4 bg-black/60 text-white">
+              <h3 className="text-lg font-bold">{game.title}</h3>
+            </div>
+          </Link>
+        ))}
       </div>
-      
     </div>
   );
 }
