@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <div style={{ width: "50vw", height: "50vh" }}>
       <iframe
         src="/games/Depteavor/index.html"
         width="100%"
