@@ -22,7 +22,7 @@ export default function Home() {
           {games.map((game) => (
             <a
               key={game.id}
-              href={`https://gdg-website-kappa.vercel.app/games/${game.id}`}
+              href={`https://uoagdg.com/games/${game.id}`}
               className={`rounded-xl overflow-hidden ${game.bg} group shadow-lg`}
               target="_blank"
               rel="noopener noreferrer"
