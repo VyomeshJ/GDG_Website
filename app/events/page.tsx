@@ -5,6 +5,7 @@ import { events } from "@/data/events";
 import Footer from "@/components/Home/footer";
 
 export default function Home() {
+  
   const upcomingEvents = events
     .filter(e => new Date(e.date) >= new Date())
     .sort((a, b) => +new Date(a.date) - +new Date(b.date));
