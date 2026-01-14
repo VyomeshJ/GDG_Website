@@ -16,7 +16,7 @@ export default function Navbar() {
                     >
                         Home
                     </a> 
-                    <a href="/">Events</a>
+                    <a href="/events">Events</a>
                 </div>
                 {
                     !open &&
@@ -43,19 +43,10 @@ export default function Navbar() {
                     open &&
                     (
                         <div className="md:hidden flex flex-col gap-5 items-center  bg-[var(--grey)] w-full z-100">
-                            <button 
-                                onClick={() => {
-                                    const section = document.getElementById("about");
-                                    if (section) {
-                                    section.scrollIntoView({ behavior: "smooth" });
-                                    }
-                                    setOpen(false)
-                                }}
-                            >
-                                About Us
-                            </button> 
-                            <a href="/" onClick={() => setOpen(false)}>Events</a>
-                            <a href="/" onClick={() => setOpen(false)}>Games</a> 
+                            
+                            <a href="/" onClick={() => setOpen(false)}>Home</a>
+                            <a href="/events" onClick={() => setOpen(false)}>Events</a>
+                            <a href="/games" onClick={() => setOpen(false)}>Games</a> 
                             <a href="/" onClick={() => setOpen(false)}>Resources</a> 
                         </div>
                     )
