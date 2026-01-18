@@ -64,7 +64,7 @@ export default function Footer(){
                             className="w-full h-full object-contain -translate-y-1"
                         />
                     </div>
-                    <a href="mailto:hello@example.com" className="font-bold text-xl">
+                    <a href="mailto:council@uoagdg.com" className="font-bold text-xl">
                         council@uoagdg.com
                     </a>
                 </div>
