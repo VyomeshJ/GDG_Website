@@ -30,7 +30,7 @@ export default function Home() {
          <Two />
       </section>
      
-      <div className="relative bg-[url('/BG/WhiteIconsBG.png')] bg-repeat w-full">
+      <div className="relative bg-[url('/BG/WhiteIconsBG.png')] bg-no-repeat bg-cover bg-center w-full">
         <section >
           <Three />
         </section>

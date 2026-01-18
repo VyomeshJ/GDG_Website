@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer(){
+    const currentDate = new Date();
     return(
         <div className="bg-[#041F25] w-full h-40 md:h-30 flex justify-between items-center p-1">
             <h3 className="hidden md:block font-KD px-5 text-xl">
-                <b>Copyright © 2024 UoA Game Developer Guild</b>
+                <b>Copyright © {currentDate.getFullYear()} UoA Game Developer Guild</b>
             </h3>
             <div className="w-30 h-30 md:hidden px-5">
                 <Image 
@@ -49,9 +50,9 @@ export default function Footer(){
                             className="w-full h-full object-contain"
                         />
                     </div>
-                    <h3 className="font-bold text-xl">
+                    <a href="tel:+6402041129013" className="font-bold text-xl">
                         020 4112 9013
-                    </h3>
+                    </a>
                 </div>
                 <div className="px-10 flex flex-row justify-center gap-2">
                     <div className="w-8 h-8">
@@ -63,9 +64,9 @@ export default function Footer(){
                             className="w-full h-full object-contain -translate-y-1"
                         />
                     </div>
-                    <h3 className="font-bold text-xl">
+                    <a href="mailto:hello@example.com" className="font-bold text-xl">
                         council@uoagdg.com
-                    </h3>
+                    </a>
                 </div>
             </div>
             

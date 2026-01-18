@@ -22,7 +22,7 @@ export default function One({overlay, showOverlay}: OneProps){
                 <h3 className="font-PSP text-[#AEF7EE] text-3xl">
                     Game Devs Unite!
                 </h3>
-                <button className="self-start bg-[#058B8B]/50 rounded-full border-4 border-white/50 flex items-center justify-center gap-4 px-4 py-3 transition-all"
+                <button className="self-start bg-[#058B8B]/50 hover:bg-[#058B8B]/100 rounded-full border-4 border-white/50 flex items-center justify-center gap-4 px-4 py-3 transition-all"
                     onClick={() => showOverlay(!overlay)}
                 >
                     <span className="font-PSP opacity-100 text-lg md:text-2xl">
