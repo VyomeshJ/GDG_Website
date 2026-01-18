@@ -33,13 +33,13 @@ export default function Home() {
                   src={game.image}
                   alt={game.title}
                   fill
-                  className="object-cover transition-transform duration-300"
+                  className="object-cover transition-transform duration-300 ease-out hover:scale-105 z-50"
                 />
               </div>
 
               {/* Title */}
               <div className="p-4 bg-[#232323] text-white">
-                <h3 className="text-lg font-bold text-[#9c9c9c] group-hover:text-white">{game.title}</h3>
+                <h3 className="text-lg font-bold text-white">{game.title}</h3>
               </div>
             </a>
           ))}
