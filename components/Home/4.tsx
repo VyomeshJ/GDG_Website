@@ -8,7 +8,7 @@ export default function Four(){
                 <div className="md:w-1/4 w-full">
                     <h4 className="text-black text-center mb-5 text-3xl">I don’t know how to code!</h4>
                     <p className="text-[#2C2C2C] text-center">
-                        <b>If you can’t code, fuck off.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                        If you don’t know how to code, that’s okay! One of our core workshops is teaching members how to code so you can come along there to learn, otherwise our Discord server has resources on some of the fundamentals of game development.
                     </p>
                 </div>
                 <div className="md:w-1/4 w-full">
@@ -20,7 +20,7 @@ export default function Four(){
                 <div className="md:w-1/4 w-full">
                     <h4 className="text-black text-center mb-5 text-3xl">Help, I’m a total newbie...</h4>
                     <p className="text-[#2C2C2C] text-center">
-                        <b>Please fucking use deoderant</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+                        Even if you’re ABSOLUTELY new to game development, our community is open for all to ask questions and help each other in any way
                     </p>
                 </div>
 

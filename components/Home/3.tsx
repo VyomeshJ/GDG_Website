@@ -36,8 +36,11 @@ export default function Three(){
                     <span className="font-mono text-8xl opacity-40">]</span>
                 </div> */}
                 <p className="text-xl max-w-[90vw] md:max-w-[60vw] text-center">
-                    <b>GDG</b> (Game Developer Guild) is a University of Auckland club dedicated to all things gamedev. We host weekly meetups 
+                    Founded in 2018, the University of Auckland Game Developer Guild is an inclusive university club dedicated to teaching students and hobbyists the core aspects of game development.
+                    <br className="mb-8"/>
+                    We offer tutorials throughout the semester where you learn each of the core aspects of game development (I.e. art, code, game design) as well as our semester long hackathon/game jam called GDG Jam where we put those skills to the test.
                 </p>
+                
             </div>
             <div className="flex justify-center flex-col items-center mb-20 md:mb-40 px-4 z-10">
                 <div className="mb-5 flex items-center justify-center whitespace-nowrap max-w-[100vw]">
@@ -62,7 +65,9 @@ export default function Three(){
                     <span className="font-mono text-8xl opacity-40">]</span>
                 </div> */}
                 <p className="text-xl max-w-[90vw] md:max-w-[60vw] text-center">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                    Those three words make up our philosophy.Our philosophy is to Dream, to Learn, to Create. This means that we provide our members the opportunity to pursue their ideas or learn new skills along the way. It’s all about the journey, not the destination for us.
+                    <br className="mb-8"/>
+                    Whether it is crafting art, brewing code, or steaming some sick beats and boiling some cool designs, we welcome them all to make a jam of a time.
                 </p>
             </div>
 
@@ -91,9 +96,7 @@ export default function Three(){
                     <span className="font-mono text-8xl opacity-40">]</span>
                 </div> */}
                 <p className="text-xl max-w-[90vw] md:max-w-[60vw] text-center">
-                    Gamedev is a team effort, so you can’t embark on this adventure alone. Many of our events encourage joining teams and socialising, but we don’t enforce it. We aim to be a very safe and inclusive space. Even if you’re the world’s introvert, you’re in gamedev -- everyone’s just as shy!
-                    <br className="mb-8"/>
-                    The most fun in this club is playing each other games, whether its during our small showcase nights, or during a grand expo event outside of the university. 
+                    Gamedev is a team effort, so you can’t embark on this adventure alone. Many of our events encourage joining teams and socialising, but we don’t enforce it. We aim to be a very safe and inclusive space. Even if you’re the world’s introvert, you’re in gamedev -- everyone’s just as shy! The most fun in this club is playing each other's games, whether it's during our small showcase nights, or during a grand expo event outside of the university.
                 </p>
             </div>
 
