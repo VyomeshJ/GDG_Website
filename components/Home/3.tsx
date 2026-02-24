@@ -101,7 +101,7 @@ export default function Three(){
             </div>
 
 
-            <h3 className="text-center text-2xl font-KD mt-auto mb-70 z-10">
+            <h3 className="text-center text-2xl text-blue-500/0 font-KD mb-10 z-10">
                 So join us already! And then,
                 <br className="mb-2"/>
                 <b>Game Devs Unite!</b>
