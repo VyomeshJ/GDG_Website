@@ -22,14 +22,14 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
               w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
             
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfKxD2HNlx40Za-vtGQFXcTyYdXVJDUAF6NeRAWZY3g_IOQVA/viewform?usp=dialog"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdPH6E81By17CAnS-qLgGFvA3zdNR7k9PieZzknwqFOjG6CZQ/viewform?usp=dialog"
               aria-label="Join as a new member"
               className="absolute inset-0 z-10"
             />
 
-            <div className="absolute top-4 right-4 z-20">
-              <h2 className="font-PSP text-right text-xl leading-tight">
-                New <br /> Member
+            <div className="absolute top-4 right-4 z-20 pt-2">
+              <h2 className="font-PSP text-right text-xl md:text-base leading-tight">
+                New <br /> Members
               </h2>
             </div>
 
@@ -50,7 +50,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
               w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
             
             <Link
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeY_OYPd9IVlKjLs4kpRVLU4XyMgqNiEcvbYVZ0Jjo3GxQUFA/viewform?usp=dialog"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe45-GrFQn55PWSOduzYrMiJ3_vpm_sHCfFuNLeVSm6ueNNEA/viewform?usp=dialog"
               aria-label="Join as a returning member"
               className="absolute inset-0 z-10"
             />
@@ -66,12 +66,43 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
               </div>
             </div>
 
-            <div className="absolute bottom-4 right-4 z-20">
-              <h2 className="font-PSP text-right text-xl leading-tight">
-                Returning <br /> Member
+            <div className="absolute bottom-4 right-4 z-20 pb-2">
+              <h2 className="font-PSP text-right text-xl md:text-base leading-tight">
+                Returning <br /> Members
               </h2>
             </div>
           </div>
+
+          <div className="relative bg-[#3d4770]/70 hover:bg-[#3d4770]/70
+              w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
+            
+            <Link
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdGx8fPm7C6vBPbaHIpBz2xIGJnc9PzTFp8lfXRu5CWEx4PxA/viewform?usp=dialog"
+              aria-label="Join as a new member"
+              className="absolute inset-0 z-10"
+            />
+
+            <div className="absolute top-4 right-4 z-20 pt-2">
+              <h2 className="font-PSP text-right text-xl md:text-base leading-tight">
+                Executive <br /> Members
+              </h2>
+            </div>
+
+            <div className="absolute bottom-0 w-full h-2/3 bg-[#48558a]/100 md:bg-[#48558a]/0 group-hover:bg-[#48558a]/100 rounded-t-xl shadow-[0_-6px_20px_rgba(0,0,0,0)] group-hover:shadow-[0_-6px_20px_rgba(0,0,0,0.3)]">
+              <div className="relative w-full h-full p-6 md:p-12">
+                <Image
+                  src="/icons/b_dude.png"
+                  alt="New member"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+            </div>
+          </div>
+          
+
+
+          
         </div>
 
         {/* Footer Text */}
