@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export default function Three(){
     return(
-        <div className="relative w-full min-h-screen flex flex-col pt-20 mb-20">
+        <div className="relative w-full min-h-screen flex flex-col pt-20">
             <Image
                 src="/BG/WhatAreWeBG.png"
                 alt=""
                 fill
                 priority
-                sizes="100vw"
+                sizes="120vw"
                 unoptimized
                 quality={95}
-                className="object-cover object-top will-change-transform"
+                className="object-contain object-top scale-105"
             />
             
             

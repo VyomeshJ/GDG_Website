@@ -31,9 +31,7 @@ export default function Home() {
       </section>
      
       <div className="relative bg-[url('/BG/WhiteIconsBG.png')] bg-no-repeat bg-cover bg-center w-full">
-        <section >
-          <Three />
-        </section>
+        <Three />
         <Four />
         <Five />
         <Six />

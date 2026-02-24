@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Four(){
     return(
         <div className="font-KD">
-            <h2 className="text-black text-center text-6xl font-bold mb-10">FAQ</h2>
+            <h2 className="text-black text-center text-6xl font-bold mb-10 mt-20">FAQ</h2>
             <div className="flex flex-col md:flex-row gap-15 justify-center p-10">
                 <div className="md:w-1/4 w-full">
                     <h4 className="text-black text-center mb-5 text-3xl">I don’t know how to code!</h4>

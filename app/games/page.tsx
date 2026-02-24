@@ -11,6 +11,12 @@ export default function Home() {
       image: "/GameCovers/depteavor.png",
       bg: "bg-red-300",
     },
+    {
+      id: "mushroomvalley",
+      title: "mushroomvalley",
+      image: "/GameCovers/mushroomvalley.png",
+      bg: "bg-red-300",
+    },
   ];
 
   return (
