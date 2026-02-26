@@ -2,20 +2,18 @@ import Image from "next/image";
 
 export default function Three(){
     return(
-        <div className="relative w-full min-h-screen flex flex-col pt-20">
-            <Image
-                src="/BG/WhatAreWeBG.png"
-                alt=""
-                fill
-                priority
-                sizes="120vw"
-                unoptimized
-                quality={95}
-                className="object-contain object-top scale-105"
-            />
+        <div className="
+            relative
+            w-full
+            aspect-[5600/6176]
+            bg-[url('/BG/WhatAreWeBG.png')]
+            bg-no-repeat
+            bg-cover
+            bg-top
+        ">
             
             
-            <div className="flex justify-center flex-col items-center mb-20 md:mb-40 px-4 z-10">
+            <div className="flex justify-center flex-col items-center mb-20 md:mb-40 px-4 z-10 pt-20">
                 <div className="mb-5 flex items-center justify-center whitespace-nowrap max-w-[100vw]">
                     <span className="font-mono text-[clamp(6rem,8vw,6rem)] opacity-40">
                         [
