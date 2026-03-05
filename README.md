@@ -1,4 +1,4 @@
-## GDG Website
+# GDG Website
 
 This project is the official website for **GDG (Game Developer Guild)**. The site was built using **Next.js** to create a fast, scalable, and modern web platform for showcasing games and community projects.
 
