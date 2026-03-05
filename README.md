@@ -1,12 +1,10 @@
 # GDG Website
 
-This project is the official website for **GDG (Game Developer Guild)**. The site was built using **Next.js** to create a fast, scalable, and modern web platform for showcasing games and community projects.
+This project is the official website for UoA's **GDG (Game Developer Guild)**. The site was built using **Next.js**
 
-A key feature of the website is the integration of **HTML5 browser games directly within the site**. Instead of redirecting users to external pages, games are embedded and playable on the platform itself, providing a smoother and more engaging user experience.
+A key feature of the website is the integration of **HTML5 browser games directly within the site** which we as a club have developed over the years (will add some more games to it as we were just testing out a few and it works flawlessly). Instead of redirecting users to external pages like itch.io, games are embedded and playable on the platform itself, providing a smoother and more engaging user experience.
 
-The project uses a **React-based component architecture through Next.js**, allowing the codebase to remain modular, maintainable, and easy to expand as new games and features are added.
-
-Overall, the goal of the GDG website is to create a central hub where visitors can explore and play games developed by the guild while demonstrating modern web development practices.
+Overall, the goal of the GDG website is to create a central hub where visitors can explore what the club does, sign up from the same website, and play games developed by the guild.
 
 # Future Improvements
 
