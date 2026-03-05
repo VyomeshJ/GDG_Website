@@ -1,36 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## GDG Website
 
-## Getting Started
+This project is the official website for **GDG (Game Developer Guild)**. The site was built using **Next.js** to create a fast, scalable, and modern web platform for showcasing games and community projects.
 
-First, run the development server:
+A key feature of the website is the integration of **HTML5 browser games directly within the site**. Instead of redirecting users to external pages, games are embedded and playable on the platform itself, providing a smoother and more engaging user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project uses a **React-based component architecture through Next.js**, allowing the codebase to remain modular, maintainable, and easy to expand as new games and features are added.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Overall, the goal of the GDG website is to create a central hub where visitors can explore and play games developed by the guild while demonstrating modern web development practices.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Future Improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I would like to implement a CMS backend (**Strapi**, so i can make it self hosted on my home lab) to make it easy to add events to the event tab (as currently we have to add json data for every event, not intuitive for others).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Additionally I would like to fill up the resource tab with some more info that can help other new comers. Going through signups we get alot of newbies, who could find this one place where they can get started with gamedev!
