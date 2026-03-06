@@ -12,14 +12,14 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
       
       {/* Modal */}
       <div className="relative bg-[#2C2C2C] rounded-xl p-6 
-          w-full max-w-2xl max-h-[85vh] overflow-y-auto">
+          w-full max-w-2xl max-h-[85vh] pointer-events-auto">
 
         {/* Cards */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-10 mb-8">
           
           {/* New Member */}
           <div className="relative bg-[#5B7546]/70 hover:bg-[#5B7546]/70
-              w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
+              w-full md:w-1/2 aspect-[3/4] rounded-xl group">
             
             <Link
               href="https://docs.google.com/forms/d/e/1FAIpQLSdPH6E81By17CAnS-qLgGFvA3zdNR7k9PieZzknwqFOjG6CZQ/viewform?usp=dialog"
@@ -47,7 +47,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
 
           {/* Returning Member */}
           <div className="relative bg-[#8A424F]/70 
-              w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
+              w-full md:w-1/2 aspect-[3/4] rounded-xl group">
             
             <Link
               href="https://docs.google.com/forms/d/e/1FAIpQLSe45-GrFQn55PWSOduzYrMiJ3_vpm_sHCfFuNLeVSm6ueNNEA/viewform?usp=dialog"
@@ -74,7 +74,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
           </div>
 
           <div className="relative bg-[#3d4770]/70 hover:bg-[#3d4770]/70
-              w-full md:w-1/2 aspect-[3/4] rounded-xl overflow-hidden group">
+              w-full md:w-1/2 aspect-[3/4] rounded-xl group">
             
             <Link
               href="https://docs.google.com/forms/d/e/1FAIpQLSdGx8fPm7C6vBPbaHIpBz2xIGJnc9PzTFp8lfXRu5CWEx4PxA/viewform?usp=dialog"
@@ -114,7 +114,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
 
       {/* Close Button */}
       <button
-        className="fixed top-4 right-4 z-[400] text-white text-4xl font-bold"
+        className="fixed top-4 right-4 z-[400] text-white text-7xl font-bold pointer-events-auto"
         onClick={() => showOverlay(false)}
         aria-label="Close registration modal"
       >

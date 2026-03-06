@@ -23,14 +23,14 @@ export default function Home() {
       
       
 
-      <div className="mt-[72px]">
+      <div className="overscroll-y-contain">
         <One overlay={overlay} showOverlay={setOverlay}/>
       </div>
       <section id="about">
          <Two />
       </section>
      
-      <div className="relative w-full min-h-screen overflow-visible 
+      <div className="relative w-full min-h-screen
                 bg-[url('/BG/WhiteIconsBG.png')] 
                 bg-no-repeat bg-cover bg-center">
         <Three />
