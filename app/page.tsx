@@ -23,7 +23,7 @@ export default function Home() {
       
       
 
-      <div className="overscroll-y-contain">
+      <div className="">
         <One overlay={overlay} showOverlay={setOverlay}/>
       </div>
       <section id="about">

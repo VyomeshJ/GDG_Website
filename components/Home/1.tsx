@@ -12,7 +12,7 @@ export default function One({overlay, showOverlay}: OneProps){
         <div className="relative w-full min-h-[110vh] md:min-h-[80vh] lg:min-h-[80vh] bg-black bg-cover bg-no-repeat bg-[url('/BG/Hero.png')]"
         >
             <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.05)_20%,_rgba(0,0,0,0.7)_100%)]"></div>
-            <div className="relative flex flex-col gap-8 pt-[15vh] md:pt-[25vh] lg:pt-[30vh] pb-[5vh] px-[5vw] z-50">
+            <div className="relative flex flex-col gap-8 pt-[30vh] md:pt-[25vh] lg:pt-[30vh] pb-[5vh] px-[5vw] z-50">
                 <h3 className="font-PSP text-[#9B5BDB] text-2xl">
                     Welcome to UoA's...
                 </h3>

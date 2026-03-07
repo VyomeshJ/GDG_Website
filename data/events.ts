@@ -37,5 +37,23 @@ export const events: Event[] = [
         time: "10:00 AM - 3:00 PM",
         location: "City Campus",
     },
+    {
+        id: "Sem 1 Launch Night",
+        title: "Sem 1 Launch Night",
+        date: "2026-03-09",
+        date_month: "MAR",
+        date_day: "9",
+        time: "6:00 PM - 8:00 PM",
+        location: "302-190",
+    },
+    {
+        id: "Sem 1 Jam Start",
+        title: "Sem 1 Jam Start",
+        date: "2026-03-16",
+        date_month: "MAR",
+        date_day: "16",
+        time: "6:00 PM - 8:00 PM",
+        location: "302-190",
+    },
   
 ];
