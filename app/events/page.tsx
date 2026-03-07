@@ -3,10 +3,28 @@
 import Image from "next/image";
 import { events } from "@/data/events";
 import Footer from "@/components/Home/footer";
+import { useEffect, useState } from "react";
 
 export default function Home() {
-  
-  const upcomingEvents = events
+  const [eventsData, setEventsData] = useState<any[]>([]);
+
+  useEffect(() => {
+    async function fetchEvents() {
+      const res = await fetch("https://gdgcms.vyomeshj.com/api/events?populate=*", {
+        headers: {
+          Authorization: "Bearer caeab160007e06ef23dd8261c426e35cb3f0b67adfd18b7082ba2ac23fa555ab15cfe54169849c623fdfdbcd52526662c90bdbb708ca863194ba2d88d2131059ad2b507afe38edd385820e0f313dee86f75a4c0ec67b03518c81aafc2f7191a1668c2ca1ab662ce8c602a04177773b64cc709e04036d583dca5b860b36e1dfd4",
+        },
+      });
+
+      const data = await res.json();
+      console.log("Events fetched:", data.data);
+      setEventsData(data.data);
+    }
+
+    fetchEvents();
+  }, []);
+
+  const upcomingEvents = eventsData
     .filter(e => new Date(e.date) >= new Date())
     .sort((a, b) => +new Date(a.date) - +new Date(b.date));
 
