@@ -1,4 +1,5 @@
 # GDG Website
+[Website](https://www.uoagdg.com/)
 
 This project is the official website for UoA's **GDG (Game Developer Guild)**. The site was built using **Next.js**
 
