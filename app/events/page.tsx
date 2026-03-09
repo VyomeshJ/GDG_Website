@@ -12,7 +12,7 @@ export default function Home() {
     async function fetchEvents() {
       const res = await fetch("https://gdgcms.vyomeshj.com/api/events?populate=*", {
         headers: {
-          Authorization: "Bearer caeab160007e06ef23dd8261c426e35cb3f0b67adfd18b7082ba2ac23fa555ab15cfe54169849c623fdfdbcd52526662c90bdbb708ca863194ba2d88d2131059ad2b507afe38edd385820e0f313dee86f75a4c0ec67b03518c81aafc2f7191a1668c2ca1ab662ce8c602a04177773b64cc709e04036d583dca5b860b36e1dfd4",
+          Authorization: "Bearer 45c183c4f6ab9491939af31cc2baf88c9d33748408820bb263552d8a305c6188aed83f5e02c1e59d94095c0a241824b50b444db28f47a03e4bf2daf59e0581e30aff2574f4de32016735846b607be7e0f51408c3d5d766dc6e13e1297fb83dc48645bb07db8b64fdebf0a99528f49dbc51c1163abd35c24dfee4faedd151e732",
         },
       });
 
