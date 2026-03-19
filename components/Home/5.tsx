@@ -10,6 +10,7 @@ export default function Five(){
                     alt=""
                     width={200}
                     height={200}
+                    style={{ height: 'auto' }}
                 />
             </div>
             
@@ -19,6 +20,7 @@ export default function Five(){
                     alt=""
                     width={400}
                     height={200}
+                    style={{ height: 'auto' }}
                 />
             </Link>
             <div className="hidden md:block pt-10">
@@ -27,6 +29,7 @@ export default function Five(){
                     alt=""
                     width={200}
                     height={200}
+                    style={{ height: 'auto' }}
                 />
             </div>
         </div>
