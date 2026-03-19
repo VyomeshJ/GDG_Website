@@ -51,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${TheBoldFont.variable} ${PSP.variable} ${TheK2DFont.variable} ${TheStaatlichesFont.variable}`}
       >

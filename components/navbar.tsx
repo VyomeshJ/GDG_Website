@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image"
 import Link from "next/link";
-import { useState, useContext } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -29,8 +29,14 @@ export default function Navbar() {
                     !open &&
                     (
                         <div className="drop-shadow-xl/25 absolute top-0 left-[50%] -translate-x-1/2  justify-center w-[160px] h-[130px] md:w-[250px] md:h-[203px] lg:w-[250px] lg:h-[203px] z-100"> 
-                            <Link href="/">
-                                <Image src="/icons/LOGO.png" alt="logo" fill/>
+                            <Link href="/" className="relative block w-full h-full">
+                                <Image
+                                    src="/icons/LOGO.png"
+                                    alt="logo"
+                                    fill
+                                    sizes="(max-width: 767px) 160px, 250px"
+                                    loading="eager"
+                                />
                             </Link>
                         </div>
                     )
