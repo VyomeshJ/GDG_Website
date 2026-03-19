@@ -2,7 +2,7 @@
 
 import React, { useRef, useCallback } from "react"
 
-export default function GongClient(): JSX.Element {
+export default function GongClient() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const handlePlay = useCallback(() => {
