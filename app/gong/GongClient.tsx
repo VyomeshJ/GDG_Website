@@ -1,9 +1,11 @@
 "use client"
 
-import React, { useRef, useCallback } from "react"
+import React, { useRef, useCallback, useState } from "react"
 
 export default function GongClient() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
+  const [isHovered, setIsHovered] = useState(false)
+  const buttonSize = "min(60vh, calc(100vw - 2rem), calc(100vh - 2rem))"
 
   const handlePlay = useCallback(() => {
     const audio = audioRef.current
@@ -26,12 +28,37 @@ export default function GongClient() {
         aria-label="Play gong"
         onClick={handlePlay}
         onKeyDown={handleKey}
-        style={{ height: "60vh", padding: 0, border: 0, background: "transparent", cursor: "pointer" }}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+        onFocus={() => setIsHovered(true)}
+        onBlur={() => setIsHovered(false)}
+        style={{
+          height: buttonSize,
+          width: buttonSize,
+          padding: "0.7rem",
+          border: 0,
+          borderRadius: "26px",
+          background: isHovered ? "#9a9a9a" : "#878787",
+          boxShadow: isHovered ? "0 12px 28px rgba(0, 0, 0, 0.35)" : "0 10px 24px rgba(0, 0, 0, 0.25)",
+          cursor: "pointer",
+          transition: "background-color 160ms ease, box-shadow 160ms ease",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
       >
         <img
           src="/gong-assets/gong.jpg"
           alt="Gong"
-          style={{ height: "100%", width: "auto", maxWidth: "calc(100vw - 2rem)", display: "block", objectFit: "contain" }}
+          style={{
+            height: "100%",
+            width: "100%",
+            display: "block",
+            objectFit: "contain",
+            borderRadius: "inherit",
+            filter: isHovered ? "brightness(0.92) saturate(0.95)" : "none",
+            transition: "filter 160ms ease",
+          }}
         />
       </button>
 
