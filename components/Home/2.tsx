@@ -8,6 +8,7 @@ export default function Two(){
                 src="/icons/DreamMascot.png"
                 alt=""
                 fill
+                sizes="(max-width: 768px) 25vw, (max-width: 1024px) 18vw, 12vw"
                 className="object-contain"
 
                 />
@@ -17,6 +18,7 @@ export default function Two(){
                 src="/icons/LearnMascot.png"
                 alt=""
                 fill
+                sizes="(max-width: 768px) 25vw, (max-width: 1024px) 18vw, 12vw"
                 className="object-contain"
 
                 />
@@ -26,6 +28,7 @@ export default function Two(){
                 src="/icons/CreateMascot.png"
                 alt=""
                 fill
+                sizes="(max-width: 768px) 25vw, (max-width: 1024px) 18vw, 12vw"
                 className="object-contain"
 
                 />

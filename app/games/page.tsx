@@ -39,6 +39,7 @@ export default function Home() {
                   src={game.image}
                   alt={game.title}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
                   className="object-cover transition-transform duration-300 ease-out hover:scale-105 z-50"
                 />
               </div>
