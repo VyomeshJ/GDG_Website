@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useContext } from "react";
 
 type OneProps = {
   overlay: boolean;
@@ -9,15 +8,15 @@ type OneProps = {
 export default function One({ overlay, showOverlay }: OneProps) {
   return (
     <div
-      className="relative w-full min-h-[110vh] md:min-h-[80vh] lg:min-h-[80vh] bg-black bg-cover bg-no-repeat bg-[url('/BG/Hero.png')]"
+      className="relative flex w-full min-h-[70svh] md:min-h-[80vh] bg-black bg-cover bg-no-repeat bg-[url('/BG/Hero.png')]"
     >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.05)_20%,_rgba(0,0,0,0.7)_100%)]"></div>
 
       {/* Hero content */}
-      <div className="relative flex flex-col gap-8 pt-[clamp(8rem,25vh,18rem)] pb-[5vh] px-[5vw] z-50">
+      <div className="relative z-50 flex w-full flex-1 flex-col justify-center gap-8 px-[5vw] py-[clamp(6rem,12vh,10rem)]">
 
-        <h3 className="font-PSP text-[#9B5BDB] text-[clamp(1.2rem,1.6vw,1.8rem)]">
+        <h3 className="font-PSP text-[#dbdfff] text-[clamp(1.2rem,1.6vw,1.8rem)]">
           Welcome to UoA's...
         </h3>
 
@@ -50,7 +49,7 @@ export default function One({ overlay, showOverlay }: OneProps) {
             />
           </button>
 
-          {/* Discord button */}
+          
           <a
             href="https://discord.com/invite/cnmjh8NQDT"
             target="_blank"

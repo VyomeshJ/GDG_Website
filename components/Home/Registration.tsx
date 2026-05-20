@@ -6,6 +6,8 @@ type RegistrationProps = {
   showOverlay: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
+const REGISTRATION_IMAGE_SIZES = "(max-width: 767px) calc(100vw - 5rem), 190px";
+
 export default function Registration({ overlay, showOverlay }: RegistrationProps) {
   return (
     <div className="fixed inset-0 z-[300] bg-black/50 flex items-center justify-center px-4">
@@ -41,6 +43,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
                   src="/icons/g_dude.png"
                   alt="New member"
                   fill
+                  sizes={REGISTRATION_IMAGE_SIZES}
                   className="object-contain"
                 />
               </div>
@@ -63,6 +66,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
                   src="/icons/r_dude.png"
                   alt="Returning member"
                   fill
+                  sizes={REGISTRATION_IMAGE_SIZES}
                   className="object-contain"
                 />
               </div>
@@ -97,6 +101,7 @@ export default function Registration({ overlay, showOverlay }: RegistrationProps
                   src="/icons/b_dude.png"
                   alt="Executive member"
                   fill
+                  sizes={REGISTRATION_IMAGE_SIZES}
                   className="object-contain"
                 />
               </div>

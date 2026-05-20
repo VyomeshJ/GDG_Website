@@ -52,6 +52,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" as="image" href="/icons/g_dude.png" type="image/png" />
+        <link rel="preload" as="image" href="/icons/r_dude.png" type="image/png" />
+        <link rel="preload" as="image" href="/icons/b_dude.png" type="image/png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased ${TheBoldFont.variable} ${PSP.variable} ${TheK2DFont.variable} ${TheStaatlichesFont.variable}`}
       >

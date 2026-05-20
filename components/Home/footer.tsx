@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer(){
     const currentDate = new Date();
     return(
-        <div className="bg-[#041F25] w-full h-40 md:h-30 flex justify-between items-center p-1">
+        <div className="bg-[#041F25] text-white w-full h-40 md:h-30 flex justify-between items-center p-1">
             <h3 className="hidden md:block font-KD px-5 text-xl">
                 <b>Copyright © {currentDate.getFullYear()} UoA Game Developer Guild</b>
             </h3>
@@ -50,7 +50,7 @@ export default function Footer(){
                             className="w-full h-full object-contain"
                         />
                     </div>
-                    <a href="tel:+6402041129013" className="font-bold text-xl">
+                    <a href="tel:+6402041129013" className="font-bold text-xl text-white">
                         020 4112 9013
                     </a>
                 </div>
@@ -64,7 +64,7 @@ export default function Footer(){
                             className="w-full h-full object-contain -translate-y-1"
                         />
                     </div>
-                    <a href="mailto:council@uoagdg.com" className="font-bold text-xl">
+                    <a href="mailto:council@uoagdg.com" className="font-bold text-xl text-white">
                         council@uoagdg.com
                     </a>
                 </div>
