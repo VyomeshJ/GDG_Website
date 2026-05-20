@@ -363,13 +363,13 @@ export default function GamesPage() {
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div className="flex flex-col gap-1">
                 <h2 className="font-PSP text-sm text-[#058B8B]">Browse</h2>
-                <span className="text-sm font-bold text-black/55">
+                <span className="font-KD text-sm font-bold text-black/55">
                   {filteredGames.length} of {games.length} games shown
                 </span>
               </div>
 
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                <span className="text-sm font-bold text-black/55">Sort by</span>
+                <span className="font-KD text-sm font-bold text-black/55">Sort by</span>
                 <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-black/10 bg-white p-1 shadow-inner">
                   {sortOptions.map((option) => {
                     const selected = sortMode === option.value;
@@ -380,7 +380,7 @@ export default function GamesPage() {
                         type="button"
                         onClick={() => setSortMode(option.value)}
                         aria-pressed={selected}
-                        className={`min-w-[5rem] rounded-md px-3 py-2 text-sm font-bold transition ${
+                        className={`min-w-[5rem] rounded-md px-3 py-2 font-KD text-sm font-bold transition ${
                           selected
                             ? "bg-[#00c8b0] text-black shadow-sm"
                             : "text-black/60 hover:bg-black/5 hover:text-black"
@@ -396,14 +396,14 @@ export default function GamesPage() {
 
             <div className="flex flex-col gap-3 border-t border-black/10 pt-4">
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <span className="text-sm font-bold text-black/55">
+                <span className="font-KD text-sm font-bold text-black/55">
                   Filter by tags
                 </span>
                 {selectedTags.length > 0 && (
                   <button
                     type="button"
                     onClick={() => setSelectedTags([])}
-                    className="rounded-md border border-black/15 bg-white px-3 py-1.5 text-sm font-bold text-black/65 transition hover:border-[#058B8B]/60 hover:text-black"
+                    className="rounded-md border border-black/15 bg-white px-3 py-1.5 font-KD text-sm font-bold text-black/65 transition hover:border-[#058B8B]/60 hover:text-black"
                   >
                     Clear filters
                   </button>
@@ -420,7 +420,7 @@ export default function GamesPage() {
                       type="button"
                       onClick={() => toggleTag(tag)}
                       aria-pressed={selected}
-                      className={`rounded-md border px-3 py-1.5 text-sm font-bold transition ${
+                      className={`rounded-md border px-3 py-1.5 font-KD text-sm font-bold transition ${
                         selected
                           ? "border-[#00c8b0] bg-[#00c8b0] text-black"
                           : "border-black/10 bg-white text-black/65 hover:border-[#058B8B]/60 hover:text-black"
@@ -457,7 +457,7 @@ export default function GamesPage() {
                     />
                   ) : (
                     <div className="flex h-full w-full items-center justify-center bg-[#058B8B]/15 p-6 text-center">
-                      <span className="font-PSP text-sm leading-relaxed text-black/75">
+                      <span className="font-bold text-sm leading-relaxed text-black/75">
                         {game.title}
                       </span>
                     </div>
@@ -466,26 +466,26 @@ export default function GamesPage() {
 
                 <div className="grid min-h-0 grid-rows-[4.25rem_3.75rem_auto_1fr] gap-3 p-4">
                   <div className="min-h-0">
-                    <h2 className="line-clamp-2 text-xl font-bold leading-tight text-black">
+                    <h2 className="line-clamp-2 font-bold text-xl leading-tight text-black">
                       {game.title}
                     </h2>
-                    <p className="mt-1 truncate text-sm text-black/55">
+                    <p className="mt-1 truncate font-KD text-sm text-black/55">
                       {game.author}
                     </p>
                   </div>
 
-                  <p className="line-clamp-3 text-sm leading-5 text-black/65">
+                  <p className="line-clamp-3 font-KD text-sm leading-5 text-black/65">
                     {game.description || " "}
                   </p>
 
                   <div className="flex min-h-[1.75rem] flex-wrap items-start gap-2">
                     {game.genre && (
-                      <span className="rounded-full bg-black/6 px-3 py-1 text-xs font-bold text-black/70">
+                      <span className="rounded-full bg-black/6 px-3 py-1 font-KD text-xs font-bold text-black/70">
                         {game.genre}
                       </span>
                     )}
                     {game.playable && (
-                      <span className="rounded-full bg-[#00c8b0]/18 px-3 py-1 text-xs font-bold text-[#056B62]">
+                      <span className="rounded-full bg-[#00c8b0]/18 px-3 py-1 font-KD text-xs font-bold text-[#056B62]">
                         Play in browser
                       </span>
                     )}
@@ -495,7 +495,7 @@ export default function GamesPage() {
                     {game.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="rounded-full bg-black/6 px-2 py-1 text-[0.7rem] font-bold text-black/50"
+                        className="rounded-full bg-black/6 px-2 py-1 font-KD text-[0.7rem] font-bold text-black/50"
                       >
                         {tag}
                       </span>
@@ -506,7 +506,7 @@ export default function GamesPage() {
             ))}
           </div>
         ) : (
-          <div className="flex min-h-[220px] items-center justify-center rounded-lg border border-black/10 bg-black/5 p-8 text-center text-black/60">
+          <div className="flex min-h-[220px] items-center justify-center rounded-lg border border-black/10 bg-black/5 p-8 text-center font-KD text-black/60">
             No games match every selected tag.
           </div>
         )}

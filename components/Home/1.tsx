@@ -8,19 +8,19 @@ type OneProps = {
 export default function One({ overlay, showOverlay }: OneProps) {
   return (
     <div
-      className="relative flex w-full min-h-[70svh] md:min-h-[80vh] bg-black bg-cover bg-no-repeat bg-[url('/BG/Hero.png')]"
+      className="relative flex w-full min-h-[max(35rem,82svh)] md:min-h-[80vh] bg-black bg-cover bg-no-repeat bg-[url('/BG/Hero.png')]"
     >
       {/* Background gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(0,0,0,0.05)_20%,_rgba(0,0,0,0.7)_100%)]"></div>
 
       {/* Hero content */}
-      <div className="relative z-50 flex w-full flex-1 flex-col justify-center gap-8 px-[5vw] py-[clamp(6rem,12vh,10rem)]">
+      <div className="relative z-50 flex w-full flex-1 flex-col justify-center gap-6 px-[5vw] pb-[clamp(4rem,8vh,6rem)] pt-[clamp(10rem,24svh,13rem)] sm:gap-8 sm:pt-[clamp(9rem,18svh,12rem)] md:py-[clamp(7rem,14vh,11rem)]">
 
         <h3 className="font-PSP text-[#dbdfff] text-[clamp(1.2rem,1.6vw,1.8rem)]">
           Welcome to UoA's...
         </h3>
 
-        <h1 className="font-bold text-white leading-tight text-[clamp(2.8rem,6vw,6rem)]">
+        <h1 className="font-bold text-white leading-tight text-[clamp(2.4rem,12vw,6rem)] md:text-[clamp(2.8rem,6vw,6rem)]">
           Game Developer Guild
         </h1>
 
