@@ -73,9 +73,9 @@ export default function One({ overlay, showOverlay }: OneProps) {
       </div>
 
       {/* Scroll indicator */}
-      <div>
+      <div className="pointer-events-none absolute bottom-5 left-0 right-0 z-50 hidden justify-center md:flex">
         <Image
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 z-50 block md:hidden"
+          className="block"
           src="/icons/arrow_down.png"
           alt=""
           width={59}
