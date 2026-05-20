@@ -1,0 +1,960 @@
+[
+  {
+    "title": "Don't Let Them Escape, We Must Consume",
+    "href": "https://uoagdg.itch.io/dont-let-them-escape-we-must-consume",
+    "image": "https://img.itch.zone/aW1nLzE1OTY1MjkxLnBuZw==/315x250%23c/iIabR%2F.png",
+    "description": "Don't Let Them Escape we Must Consume",
+    "author": "UoAGDG",
+    "genre": "Simulation",
+    "publishedAt": "2024-04-19",
+    "tags": [
+      "2D",
+      "Horror",
+      "Simple"
+    ]
+  },
+  {
+    "title": "Solace",
+    "href": "https://itsmaddienow.itch.io/solace",
+    "image": "https://img.itch.zone/aW1nLzE4MzIzNzE2LnBuZw==/315x250%23c/emnjor.png",
+    "author": "ItsMaddieNow",
+    "genre": "Puzzle",
+    "publishedAt": "2024-11-12",
+    "tags": [
+      "3D",
+      "Godot",
+      "Indie"
+    ]
+  },
+  {
+    "title": "Unnamed Cat(s) Game",
+    "href": "https://anqilique.itch.io/unnamed-cats-game",
+    "image": "https://img.itch.zone/aW1nLzIzMjcwMzgwLnBuZw==/315x250%23c/uIRgM0.png",
+    "description": "UoA GDG Jam 2 2025",
+    "author": "Anqilique",
+    "genre": "Strategy",
+    "playable": true,
+    "publishedAt": "2026-04-21",
+    "tags": [
+      "2D",
+      "Cats",
+      "No AI",
+      "Pixel Art",
+      "Top-Down",
+      "Two Player"
+    ]
+  },
+  {
+    "title": "Bruh Pyramid Quest",
+    "href": "https://tsukeybii.itch.io/bruh-pyramid-quest",
+    "image": "https://img.itch.zone/aW1nLzIzMjcxNTE0LnBuZw==/315x250%23c/DWWEH9.png",
+    "description": "Complete the goal and win the game",
+    "author": "tsukeybii",
+    "genre": "Platformer",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "2D",
+      "Atmospheric",
+      "Fantasy",
+      "Short",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "Boa on the Go-a",
+    "href": "https://cyuni.itch.io/boa-on-the-goa",
+    "image": "https://img.itch.zone/aW1nLzIzMjcyMzE0LnBuZw==/315x250%23c/uW4%2Fti.png",
+    "description": "These flaming snakes won't get to the restaurant by themselves ya know",
+    "author": "Cyuni",
+    "genre": "Action",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "2D",
+      "Comedy"
+    ]
+  },
+  {
+    "title": "🧾Tales Of Tan🧾",
+    "href": "https://foosnail.itch.io/tales-of-tan",
+    "image": "https://img.itch.zone/aW1nLzIzMjU4MTg5LnBuZw==/315x250%23c/5TKtD6.png",
+    "description": "Fight through different Eras of time to Strengthen your Genetics to help your Future Fighters!",
+    "author": "Foosnail",
+    "genre": "Action",
+    "publishedAt": "2025-09-20",
+    "tags": [
+      "storygame"
+    ]
+  },
+  {
+    "title": "Crash & Crawl",
+    "href": "https://last-minute-enjoyers.itch.io/crash-crawl",
+    "image": "https://img.itch.zone/aW1nLzIxMDYxMTE1LnBuZw==/315x250%23c/AAcZqK.png",
+    "author": "Last Minute Enjoyers",
+    "genre": "Action",
+    "publishedAt": "2026-04-28",
+    "tags": [
+      "2D",
+      "No AI",
+      "Pixel Art",
+      "Vehicles",
+      "Zombies"
+    ]
+  },
+  {
+    "title": "Time Crash",
+    "href": "https://viscoelasticity.itch.io/time-crash",
+    "author": "viscoelasticity",
+    "genre": "Puzzle",
+    "publishedAt": "2025-05-05",
+    "tags": [
+      "Pixel Art",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "RamRaiderz",
+    "href": "https://vetremere.itch.io/ramraiderz",
+    "image": "https://img.itch.zone/aW1nLzIxMDQxOTE5LnBuZw==/315x250%23c/RzC%2BLu.png",
+    "description": "This is kinda cooked",
+    "author": "VetreMere",
+    "genre": "Action",
+    "playable": true,
+    "publishedAt": "2025-05-05",
+    "tags": []
+  },
+  {
+    "title": "Crash Out!",
+    "href": "https://k1w1fru1t.itch.io/crash-out",
+    "image": "https://img.itch.zone/aW1nLzIxMDI2MTM2LmdpZg==/315x250%23c/6Cgmts.gif",
+    "description": "Don't Crash Out!",
+    "author": "k1w1fru1t",
+    "genre": "Visual Novel",
+    "publishedAt": "2025-05-05",
+    "tags": [
+      "No AI",
+      "Pixel Art",
+      "Ren'Py",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "Dislodged",
+    "href": "https://vyomesh-jamwal.itch.io/dislodged",
+    "image": "https://img.itch.zone/aW1nLzIxMDQ0MjYxLnBuZw==/315x250%23c/m%2B9JNl.png",
+    "description": "You're trapped in another world! Do your best to escape and return.",
+    "author": "Vyomesh Jamwal",
+    "genre": "Platformer",
+    "playable": true,
+    "publishedAt": "2025-05-05",
+    "tags": [
+      "16x16",
+      "2D"
+    ]
+  },
+  {
+    "title": "C.R.A.S.H",
+    "href": "https://notatree07.itch.io/crash",
+    "image": "https://img.itch.zone/aW1nLzIxMjUzNzkwLnBuZw==/315x250%23c/wKftR2.png",
+    "description": "A DOOM-like game where you play as a crab.",
+    "author": "NotATree07",
+    "genre": "Action",
+    "publishedAt": "2025-05-04",
+    "tags": [
+      "3D",
+      "Doom",
+      "First-Person",
+      "gdg2025",
+      "Hand-drawn",
+      "No AI",
+      "Singleplayer",
+      "Unreal Engine"
+    ]
+  },
+  {
+    "title": "🤖CRASHOUT🥀",
+    "href": "https://foosnail.itch.io/crashout",
+    "image": "https://img.itch.zone/aW1nLzIxMDQzODg5LnBuZw==/315x250%23c/UWXvTd.png",
+    "author": "Foosnail",
+    "genre": "Action",
+    "publishedAt": "2025-05-03",
+    "tags": [
+      "4d",
+      "Aseprite",
+      "Bullet Hell",
+      "GameMaker",
+      "Godot",
+      "Sandbox",
+      "Singleplayer",
+      "Story Rich",
+      "Unity",
+      "Unreal Engine"
+    ]
+  },
+  {
+    "title": "Fragore",
+    "href": "https://spectral575.itch.io/fragore",
+    "image": "https://img.itch.zone/aW1nLzIxMDExOTc3LnBuZw==/315x250%23c/C%2F8iCd.png",
+    "author": "Spectral575",
+    "genre": "Adventure",
+    "publishedAt": "2025-05-03",
+    "playable": true,
+    "tags": []
+  },
+  {
+    "title": "Code Blue",
+    "href": "https://anqilique.itch.io/code-blue",
+    "image": "https://img.itch.zone/aW1nLzIwOTkyODcyLmpwZw==/315x250%23c/w3B8tG.jpg",
+    "description": "UoA GDG Jam 1 2025",
+    "author": "Anqilique",
+    "genre": "Survival",
+    "playable": true,
+    "publishedAt": "2025-05-03",
+    "tags": [
+      "2D",
+      "My First Game Jam",
+      "No AI",
+      "Pixel Art",
+      "Singleplayer",
+      "Top-Down",
+      "Top down shooter",
+      "uoagdgjam"
+    ]
+  },
+  {
+    "title": "Just another roguelike.exe",
+    "href": "https://denps.itch.io/just-another-roguelikeexe",
+    "image": "https://img.itch.zone/aW1nLzIwOTgyMzcxLnBuZw==/315x250%23c/2XEQ9V.png",
+    "description": "One tip: Don't Crash",
+    "publishedAt": "2025-05-01",
+    "author": "DenPs",
+    "tags": [
+      "Roguelike"
+    ]
+  },
+  {
+    "title": "GooGooGaGone",
+    "href": "https://sekrets.itch.io/googoogagone",
+    "image": "https://img.itch.zone/aW1nLzIwMzI1ODQ2LnBuZw==/315x250%23c/1ZTETi.png",
+    "description": "Crash into babies from the comfort of your own home!",
+    "author": "Sekret",
+    "genre": "Racing",
+    "publishedAt": "2025-03-18",
+    "playable": true,
+    "tags": [
+      "Arcade",
+      "Driving",
+      "Endless",
+      "Fast-Paced",
+      "Funny",
+      "Low-poly",
+      "Meme",
+      "Physics",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "Gi's longest day",
+    "href": "https://sylky.itch.io/gis-longest-day",
+    "description": "For global game jam 2025",
+    "author": "Sylky",
+    "genre": "Visual Novel",
+    "publishedAt": "2025-01-26",
+    "playable": true,
+    "tags": []
+  },
+  {
+    "title": "Maw, Meat and Madness",
+    "href": "https://greywell.itch.io/maw-meat-and-madness",
+    "image": "https://img.itch.zone/aW1nLzE5NjczOTc2LnBuZw==/315x250%23c/Dk9FDX.png",
+    "description": "Game for Boss Rush Jam 2025 - Defeat cosmic horrors in this space battler",
+    "author": "Greywell",
+    "genre": "Action",
+    "playable": true,
+    "publishedAt": "2025-02-02",
+    "tags": [
+      "Asteroids",
+      "Bullet Hell",
+      "Gravity",
+      "Lovecraftian Horror",
+      "Sci-fi",
+      "Space"
+    ]
+  },
+  {
+    "title": "station.block",
+    "href": "https://dragonmoffon.itch.io/station-block",
+    "image": "https://img.itch.zone/aW1nLzIxMDgzMzgwLnBuZw==/315x250%23c/TdPbq8.png",
+    "description": "build out programs to repair the stations logic",
+    "author": "DragonMoffon",
+    "genre": "Puzzle",
+    "publishedAt": "2025-05-05",
+    "tags": [
+      "2D",
+      "No AI",
+      "Pixel Art",
+      "programming",
+      "Retro",
+      "Short"
+    ]
+  },
+  {
+    "title": "AFTERLIFE",
+    "href": "https://janer567.itch.io/afterlife",
+    "image": "https://img.itch.zone/aW1nLzIzOTI5NDQ3LnBuZw==/315x250%23c/%2BBZfBF.png",
+    "description": "short quirky story based RPG",
+    "author": "Janer567",
+    "genre": "Role Playing",
+    "publishedAt": "2025-05-12",
+    "tags": [
+      "2D",
+      "Pixel Art",
+      "Story Rich",
+      "Undertale"
+    ]
+  },
+  {
+    "title": "Chrono",
+    "href": "https://dragonmoffon.itch.io/chrono",
+    "image": "https://img.itch.zone/aW1nLzE3ODAzNjU1LnBuZw==/315x250%23c/w0ScAF.png",
+    "description": "A small tech demo for the UoA Game Dev Guild 2024 Jam 2!",
+    "author": "DragonMoffon",
+    "genre": "Platformer",
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "2D",
+      "Time Travel"
+    ]
+  },
+  {
+    "title": "The Last Rat",
+    "href": "https://korny1.itch.io/the-last-rat",
+    "image": "https://img.itch.zone/aW1nLzI3MDUwMDY0LnBuZw==/original/fcycXi.png",
+    "description": "The cat apawcalypse is here. You are the last rat.",
+    "author": "Korny",
+    "genre": "Action",
+    "publishedAt": "2026-05-04",
+    "tags": [
+      "Cats",
+      "Vampire"
+    ]
+  },
+  {
+    "title": "Catsle Knights",
+    "href": "https://matchwell.itch.io/catsle-knights",
+    "image": "https://img.itch.zone/aW1nLzI3MDYyMjg5LnBuZw==/original/TLza9G.png",
+    "description": "Gather your knights and storm the cats castle",
+    "author": "matchwell, Shio-y, changed_character",
+    "genre": "Action",
+    "publishedAt": "2026-05-04",
+    "tags": [
+      "2D",
+      "Cats",
+      "Godot",
+      "No AI",
+      "Pixel Art",
+      "Roguelike",
+      "Top down shooter"
+    ]
+  },
+  {
+    "title": "Kitika's Cafe",
+    "href": "https://ryral.itch.io/kitikas-cafe",
+    "image": "https://img.itch.zone/aW1nLzI3MDQyNDE5LnBuZw==/original/bevvPi.png",
+    "description": "You decide to get a job at Kitika's Cafe!",
+    "author": "Ryral, staara, tabyrocket",
+    "genre": "Visual Novel",
+    "publishedAt": "2026-05-03",
+    "tags": [
+      "2D",
+      "Cats",
+      "Cozy",
+      "Cute",
+      "Godot",
+      "Horror",
+      "Indie",
+      "Meaningful Choices",
+      "No AI"
+    ]
+  },
+  {
+    "title": "Return To Reality",
+    "href": "https://theskbrooook.itch.io/return-to-reality",
+    "author": "TheSKBrooook",
+    "genre": "Interactive Fiction",
+    "publishedAt": "2026-05-04",
+    "tags": []
+  },
+  {
+    "title": "The Rat's End",
+    "href": "https://tabyrocket.itch.io/the-rats-end",
+    "image": "https://img.itch.zone/aW1nLzI3MDMxMDA2LnBuZw==/original/rCO8Up.png",
+    "description": "The cats must pay. Take your revenge. This is the rat's end.",
+    "author": "tabyrocket",
+    "genre": "Action, Survival",
+    "publishedAt": "2026-05-03",
+    "tags": [
+      "3D",
+      "Cats",
+      "Dystopian",
+      "Godot",
+      "Souls-like"
+    ]
+  },
+  {
+    "title": "TURBOCATS",
+    "href": "https://bottlebrush.itch.io/turbocats",
+    "image": "https://img.itch.zone/aW1nLzI3MDE4NjUyLnBuZw==/original/WXIys1.png",
+    "description": "DESTROY CRAFT UPGRADE",
+    "author": "BottleBrush",
+    "genre": "Strategy, Role Playing, Shooter",
+    "playable": true,
+    "publishedAt": "2026-05-02",
+    "tags": [
+      "2D",
+      "Cats",
+      "Crafting",
+      "Tower Defense"
+    ]
+  },
+  {
+    "title": "One Rat Army",
+    "href": "https://timmiee.itch.io/one-rat-army",
+    "author": "Timmie",
+    "genre": "Shooter",
+    "playable": true,
+    "publishedAt": "2026-05-03",
+    "tags": [
+      "2D"
+    ]
+  },
+  {
+    "title": "Plague Crusade",
+    "href": "https://ninjaking1212.itch.io/plaguecrusade",
+    "image": "https://img.itch.zone/aW1nLzEyMDg5MzQ5LnBuZw==/315x250%23c/KIrBz5.png",
+    "author": "NinjaKing",
+    "genre": "Action",
+    "publishedAt": "2023-05-06",
+    "tags": [
+      "Action"
+    ]
+  },
+  {
+    "title": "ring_zero",
+    "href": "https://xnopytagameing.itch.io/ring-zero",
+    "image": "https://img.itch.zone/aW1nLzEyMTAxMTk5LnBuZw==/315x250%23c/klPMFh.png",
+    "description": "A fast-paced arcade shooter where you shoot alien creatures",
+    "author": "Xnopyt-A, Deathpacitoast",
+    "genre": "Action",
+    "playable": true,
+    "publishedAt": "2023-05-07",
+    "tags": [
+      "2D",
+      "Arcade",
+      "Pixel Art",
+      "Retro"
+    ]
+  },
+  {
+    "title": "ChessGPT",
+    "href": "https://mrcandela.itch.io/chessgpt",
+    "image": "https://img.itch.zone/aW1nLzEyMTAwOTk0LnBuZw==/315x250%23c/UbQoeY.png",
+    "description": "Chess from the world's finest AI chatbot",
+    "author": "MrCandela",
+    "genre": "Strategy",
+    "publishedAt": "2023-05-07",
+    "tags": [
+      "artificial-intelligence",
+      "Chess",
+      "Cute",
+      "Pixel Art",
+      "Singleplayer",
+      "Unity"
+    ]
+  },
+  {
+    "title": "Boss Figher",
+    "href": "https://gabriel-555.itch.io/boss-fighter",
+    "author": "gabriel_555",
+    "publishedAt": "2023-05-08",
+    "tags": []
+  },
+  {
+    "title": "Karma Kameleon",
+    "href": "https://karmakameleon.itch.io/karma-kameleon",
+    "image": "https://img.itch.zone/aW1nLzEyMTA5MDI5LnBuZw==/315x250%23c/0TJJxY.png",
+    "description": "A game about a Chameleon",
+    "author": "KarmaKameleon",
+    "publishedAt": "2023-05-08",
+    "tags": [
+      "2D",
+      "Arcade",
+      "Cute",
+      "Fantasy",
+      "Indie",
+      "Pixel Art",
+      "Psychological Horror",
+      "Singleplayer",
+      "Unity"
+    ]
+  },
+  {
+    "title": "Deicide",
+    "href": "https://feroxfoxxo.itch.io/deicide",
+    "image": "https://img.itch.zone/aW1nLzE1MjM3MzQ2LnBuZw==/315x250%23c/7H%2FIwv.png",
+    "description": "Pick up your sinners blade and cut god's down in the name of the lotus.",
+    "author": "Ferox",
+    "genre": "Action, Adventure",
+    "publishedAt": "2023-09-18",
+    "tags": [
+      "2D",
+      "Pixel Art"
+    ]
+  },
+  {
+    "title": "The Temple",
+    "href": "https://ninjaking1212.itch.io/the-temple",
+    "image": "https://img.itch.zone/aW1nLzEzNDQzMzg4LnBuZw==/315x250%23c/Pj0Z45.png",
+    "description": "Explore a mysterious haunted arcade and unlock its secrets",
+    "author": "NinjaKing, Xnopyt-A",
+    "genre": "Puzzle",
+    "playable": true,
+    "publishedAt": "2023-09-18",
+    "tags": [
+      "Puzzle"
+    ]
+  },
+  {
+    "title": "Foretold",
+    "href": "https://bogger12.itch.io/foretold",
+    "author": "bogger12",
+    "genre": "Platformer",
+    "publishedAt": "2023-09-18",
+    "tags": [
+      "Platformer"
+    ]
+  },
+  {
+    "title": "Don't Let Them Escape, We Must Consume",
+    "href": "https://toast-co.itch.io/dont-let-them-escape-we-must-consume",
+    "image": "https://img.itch.zone/aW1nLzE1ODE1ODE4LnBuZw==/315x250%23c/8%2FlH66.png",
+    "description": "We hunger for flesh so we must pull our victims into our body.",
+    "author": "Toast Co.",
+    "genre": "Survival",
+    "publishedAt": "2024-04-19",
+    "tags": [
+      "2D",
+      "Arcade",
+      "Creepy",
+      "Horror",
+      "Short",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "Anthropophobia",
+    "href": "https://last-minute-enjoyers.itch.io/anthropophobia",
+    "image": "https://img.itch.zone/aW1nLzE1OTQ5MTkzLnBuZw==/315x250%23c/FZyrrI.png",
+    "description": "GDG 2024 Sem1 Gam Jam project",
+    "author": "Last Minute Enjoyers",
+    "publishedAt": "2024-04-27",
+    "tags": [
+      "Stealth"
+    ]
+  },
+  {
+    "title": "Rowdy Racers",
+    "href": "https://greywell.itch.io/rowdy-racers",
+    "image": "https://img.itch.zone/aW1nLzE1OTM2NTg5LnBuZw==/315x250%23c/8WdDJh.png",
+    "author": "Greywell",
+    "genre": "Action",
+    "publishedAt": "2024-04-28",
+    "tags": [
+      "Action"
+    ]
+  },
+  {
+    "title": "Escape Dream",
+    "href": "https://311132141.itch.io/escape-dream",
+    "description": "this is a 2Dplatformer game",
+    "author": "311132141",
+    "genre": "Platformer",
+    "publishedAt": "2024-04-29",
+    "tags": [
+      "2D"
+    ]
+  },
+  {
+    "title": "Memento Marine",
+    "href": "https://hamsu-dev.itch.io/whale-runner",
+    "image": "https://img.itch.zone/aW1nLzE1OTUyMzkwLnBuZw==/original/3ghbkT.png",
+    "description": "2024 GDG Game Jam.",
+    "author": "hamsu-dev",
+    "genre": "Adventure, Platformer",
+    "playable": true,
+    "publishedAt": "2024-04-29",
+    "tags": [
+      "2D",
+      "Atmospheric",
+      "Exploration",
+      "Hand-drawn",
+      "Indie",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "A Childs Fantasy",
+    "href": "https://mad-rat-interactive.itch.io/a-childs-fantasy",
+    "image": "https://img.itch.zone/aW1nLzE1OTY2NTI5LnBuZw==/original/lV1eiW.png",
+    "description": "A child from an abusive household escapes his harsh reality through immersion in his toy knight.",
+    "author": "Mad Rat Interactive",
+    "genre": "Platformer",
+    "playable": true,
+    "publishedAt": "2024-04-29",
+    "tags": []
+  },
+  {
+    "title": "Turnbased Tactics",
+    "href": "https://ninjaking1212.itch.io/turnbased-tactics",
+    "image": "https://img.itch.zone/aW1nLzIzMTI4OTY5LnBuZw==/315x250%23c/hRFSmX.png",
+    "description": "Top-down turn-based strategy game",
+    "author": "NinjaKing",
+    "publishedAt": "2024-04-29",
+    "tags": []
+  },
+  {
+    "title": "Illuminal",
+    "href": "https://blendyboy.itch.io/illuminal",
+    "image": "https://img.itch.zone/aW1nLzE1OTU0NTUyLnBuZw==/315x250%23c/Qwhmqt.png",
+    "description": "The lights are out and a mysterious glowing ball lights the path forward, can you escape this nightmare?",
+    "author": "BlendyBoy, Mina",
+    "genre": "Puzzle",
+    "publishedAt": "2024-04-29",
+    "tags": [
+      "3D",
+      "Horror",
+      "Liminal space",
+      "My First Game Jam",
+      "Photorealistic"
+    ]
+  },
+  {
+    "title": "PortalPub",
+    "href": "https://last-minute-enjoyers.itch.io/portalpub",
+    "image": "https://img.itch.zone/aW1nLzE3ODE5NzgzLnBuZw==/315x250%23c/fH1f2Z.png",
+    "author": "Last Minute Enjoyers",
+    "genre": "Role Playing, Adventure, Strategy",
+    "publishedAt": "2024-09-12",
+    "tags": [
+      "Fantasy",
+      "Indie",
+      "Pixel Art",
+      "Singleplayer",
+      "Unity"
+    ]
+  },
+  {
+    "title": "The Archnemesis",
+    "href": "https://toast-co.itch.io/the-archnemesis",
+    "image": "https://img.itch.zone/aW1nLzE3NzU2OTIzLnBuZw==/315x250%23c/I2TbjY.png",
+    "description": "The roles are reversed: You are the boss in the boss fight.",
+    "author": "Toast Co.",
+    "genre": "Action",
+    "publishedAt": "2024-09-13",
+    "tags": [
+      "2D",
+      "Boss battle",
+      "Narrative",
+      "Retro",
+      "Story Rich"
+    ]
+  },
+  {
+    "title": "GENESIS",
+    "href": "https://mason-liu-u.itch.io/genesis",
+    "image": "https://img.itch.zone/aW1nLzE3Nzc4MTkwLnBuZw==/315x250%23c/ZXpE2Y.png",
+    "description": "A puzzle-action hybrid platformer made in UE5, featuring a female protagonist who's able to morph into a slime and back.",
+    "author": "Mason_Liu_u, Who?, Cipher_Sunwarrior",
+    "genre": "Platformer, Action, Puzzle",
+    "publishedAt": "2024-09-15",
+    "tags": [
+      "Narrative",
+      "Singleplayer",
+      "Unreal Engine"
+    ]
+  },
+  {
+    "title": "Debasement",
+    "href": "https://ceoofbadart.itch.io/debasement",
+    "image": "https://img.itch.zone/aW1nLzE3Nzk3NzA2LnBuZw==/315x250%23c/0ZzsbT.png",
+    "description": "It's What's on the Inside that Counts.",
+    "author": "The CEO of Bad Art",
+    "genre": "Visual Novel",
+    "playable": true,
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "2D",
+      "Game Jam",
+      "Psychological Horror",
+      "Ren'Py"
+    ]
+  },
+  {
+    "title": "Reverse Bell",
+    "href": "https://viscoelasticity.itch.io/reverse-bell",
+    "image": "https://img.itch.zone/aW1nLzE3ODAyNTg5LnBuZw==/315x250%23c/0n9Imo.png",
+    "description": "Three Christmas-themed mini games with reversing action.",
+    "author": "viscoelasticity",
+    "genre": "Adventure",
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "The Land Down Under",
+    "href": "https://giac4c.itch.io/the-land-down-under",
+    "image": "https://img.itch.zone/aW1nLzE3ODQyNDk1LnBuZw==/315x250%23c/zvlAV%2B.png",
+    "description": "An Australian-themed bullet hell roguelite where you battle waves of wildlife.",
+    "author": "Sekret, tabyrocket, kermitonketamine, PRZ Games",
+    "genre": "Survival",
+    "playable": true,
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "2D",
+      "Arcade",
+      "Bullet Hell",
+      "Co-op",
+      "Indie",
+      "Multiplayer",
+      "Roguelike",
+      "Short",
+      "Top-Down"
+    ]
+  },
+  {
+    "title": "Greedy Goblins",
+    "href": "https://ninjaking1212.itch.io/greedy-goblins",
+    "image": "https://img.itch.zone/aW1nLzIzMTI4ODQ1LmpwZw==/315x250%23c/DRIGXO.jpg",
+    "author": "NinjaKing",
+    "genre": "Role Playing",
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "Rpg"
+    ]
+  },
+  {
+    "title": "Nameless King",
+    "href": "https://mad-rat-interactive.itch.io/nameless-king",
+    "image": "https://img.itch.zone/aW1nLzE3ODA0NDcwLnBuZw==/315x250%23c/U%2Fv%2BI6.png",
+    "description": "Nameless King",
+    "author": "Mad Rat Interactive",
+    "genre": "Adventure",
+    "playable": true,
+    "publishedAt": "2024-09-16",
+    "tags": [
+      "Adventure"
+    ]
+  },
+  {
+    "title": "Untitled Alien Game",
+    "href": "https://sekrets.itch.io/untitled-alien-game",
+    "image": "https://img.itch.zone/aW1nLzIxMDQ3ODU1LnBuZw==/315x250%23c/rgbE%2Fq.png",
+    "description": "Defend your crashed ship from pesky humans!",
+    "author": "Sekret, tabyrocket, kermitonketamine, PRZ Games",
+    "genre": "Card Game, Strategy, Survival",
+    "playable": true,
+    "publishedAt": "2025-05-05",
+    "tags": [
+      "2D",
+      "Aliens",
+      "Deck Building",
+      "Roguelike",
+      "Roguelite",
+      "Singleplayer",
+      "Tower Defense"
+    ]
+  },
+  {
+    "title": "Lux Militia",
+    "href": "https://digiduncan.itch.io/lux-milita",
+    "image": "https://img.itch.zone/aW1nLzIzMjY2NTIyLnBuZw==/315x250%23c/OuYLIK.png",
+    "description": "A bullet hell with a input device twist.",
+    "author": "DigiDuncan",
+    "genre": "Action",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "2D",
+      "Bullet Hell",
+      "input-device",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "We Are Cooked",
+    "href": "https://notatree07.itch.io/we-are-cooked",
+    "image": "https://img.itch.zone/aW1nLzIzMjU2OTc4LmpwZw==/315x250%23c/fnxoM%2F.jpg",
+    "description": "We cooked something about cooking up something that will cook you",
+    "author": "NotATree07, acinine",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "18",
+      "Godot",
+      "minigames",
+      "No AI",
+      "Pixel Art",
+      "Short",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "KeyRun",
+    "href": "https://vyomesh-jamwal.itch.io/keyrun",
+    "image": "https://img.itch.zone/aW1nLzIzMjcwODM4LnBuZw==/315x250%23c/PXd2bp.png",
+    "description": "Run while passing the flame!",
+    "author": "Vyomesh Jamwal",
+    "genre": "Rhythm",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "No Ai",
+      "Rhythm"
+    ]
+  },
+  {
+    "title": "Jumping Torch",
+    "href": "https://viscoelasticity.itch.io/jumping-torch",
+    "image": "https://img.itch.zone/aW1nLzIzMjcwODgxLnBuZw==/315x250%23c/LyGEzQ.png",
+    "author": "viscoelasticity",
+    "genre": "Action",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "3D",
+      "jumping"
+    ]
+  },
+  {
+    "title": "Helping Dad",
+    "href": "https://joshuackiwi.itch.io/helping-dad",
+    "image": "https://img.itch.zone/aW1nLzIzMjcxMjE2LnBuZw==/315x250%23c/WnPe8W.png",
+    "description": "Help Dad fix the beat up family car",
+    "author": "Joshuackiwi, TheTrueCoder",
+    "genre": "Puzzle",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "Virtual Reality (VR)"
+    ]
+  },
+  {
+    "title": "Unamed Cat(s) Game",
+    "href": "https://anqilique.itch.io/unamed-cats-game",
+    "image": "https://img.itch.zone/aW1nLzIzMjcwMzgwLnBuZw==/original/nhsiuM.png",
+    "description": "UoA GDG Jam 2 2025",
+    "author": "anqilique",
+    "genre": "Strategy",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "2D",
+      "Cats",
+      "No AI",
+      "Pixel Art",
+      "Top-Down",
+      "Two Player"
+    ]
+  },
+  {
+    "title": "Holy Smokes!",
+    "href": "https://tabyrocket.itch.io/holy-smokes",
+    "image": "https://img.itch.zone/aW1nLzIzMjc2MDE5LnBuZw==/315x250%23c/YCdEvI.png",
+    "description": "A frantic parkour boss climb where you light up a skyscraper-sized priest's dynamite.",
+    "author": "tabyrocket, kermitonketamine, Sekret, PRZ Games",
+    "genre": "Action",
+    "playable": true,
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "Action"
+    ]
+  },
+  {
+    "title": "Mushroom Valley",
+    "href": "https://psheng0917.itch.io/mushroom-valley",
+    "image": "https://img.itch.zone/aW1nLzIzMjc1NjQzLnBuZw==/315x250%23c/eTxHhK.png",
+    "author": "Psheng0917, bogger12, xuxinyue",
+    "genre": "Puzzle",
+    "playable": true,
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "3D",
+      "Multiplayer"
+    ]
+  },
+  {
+    "title": "Cool Pyramid Quest",
+    "href": "https://tsukeybii.itch.io/cool-pyramid-quest",
+    "image": "https://img.itch.zone/aW1nLzIzMjcxNTE0LnBuZw==/original/i0V9XE.png",
+    "description": "Complete the goal and win the game",
+    "author": "tsukeybii",
+    "genre": "Platformer, Action, Adventure",
+    "publishedAt": "2025-09-22",
+    "tags": [
+      "2D",
+      "Atmospheric",
+      "Fantasy",
+      "Short",
+      "Singleplayer"
+    ]
+  },
+  {
+    "title": "Cat Game",
+    "href": "https://denps.itch.io/cat-game",
+    "image": "https://img.itch.zone/aW1nLzI3MjAxODk1LnBuZw==/315x250%23c/FLjhZJ.png",
+    "author": "DenPs",
+    "publishedAt": "2026-05-02",
+    "tags": []
+  },
+  {
+    "title": "Cat Conjurer",
+    "href": "https://finn25.itch.io/cat-conjurer",
+    "image": "https://img.itch.zone/aW1nLzI2OTYzNzU0LnBuZw==/315x250%23c/EGG4Pf.png",
+    "description": "summon cats by playing cards to slay the evil fruit & vege!",
+    "author": "Finn, real_ning",
+    "genre": "Action, Card Game",
+    "playable": true,
+    "publishedAt": "2026-05-03",
+    "tags": [
+      "2D",
+      "Aseprite",
+      "Cats",
+      "Godot",
+      "No AI",
+      "Pixel Art",
+      "Roguelite",
+      "Top-Down"
+    ]
+  },
+  {
+    "title": "KittInvaders",
+    "href": "https://psheng0917.itch.io/kittinvaders",
+    "image": "https://img.itch.zone/aW1nLzI3MDQzMDAzLnBuZw==/315x250%23c/yJNpxh.png",
+    "description": "I love cats",
+    "author": "Psheng0917",
+    "genre": "Educational",
+    "playable": true,
+    "publishedAt": "2026-05-03",
+    "tags": [
+      "Psychological Horror"
+    ]
+  },
+  {
+    "title": "Catfishing",
+    "href": "https://lfon434.itch.io/catfishing-uoa",
+    "image": "https://img.itch.zone/aW1nLzI3MDYzODczLnBuZw==/315x250%23c/uZCThG.png",
+    "description": "unfinished catfishing prototype game",
+    "author": "lfon434",
+    "publishedAt": "2026-05-04",
+    "tags": [
+      "Anime",
+      "Cats",
+      "fish",
+      "Fishing"
+    ]
+  }
+]
