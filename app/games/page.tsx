@@ -19,7 +19,10 @@ type Game = {
 
 type SortMode = "default" | "newest" | "oldest";
 
-const games = gamesData as Game[]
+const games = (gamesData as Game[]).map((game, index) => ({
+  ...game,
+  id: `${game.href}-${index}`,
+}));
 
 const allTags = Array.from(new Set(games.flatMap((game) => game.tags))).sort((a, b) =>
   a.localeCompare(b),
@@ -32,16 +35,30 @@ const sortOptions: { label: string; value: SortMode }[] = [
 ];
 
 export default function GamesPage() {
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [sortMode, setSortMode] = useState<SortMode>("default");
 
   const filteredGames = useMemo(() => {
+    const normalizedQuery = searchQuery.trim().toLocaleLowerCase();
     const matchingGames =
-      selectedTags.length === 0
+      normalizedQuery.length === 0 && selectedTags.length === 0
         ? games
-        : games.filter((game) =>
-            selectedTags.every((tag) => game.tags.includes(tag)),
-          );
+        : games.filter((game) => {
+            const matchesTags = selectedTags.every((tag) => game.tags.includes(tag));
+            const searchableText = [
+              game.title,
+              game.author,
+              game.description,
+              game.genre,
+              ...game.tags,
+            ]
+              .filter(Boolean)
+              .join(" ")
+              .toLocaleLowerCase();
+
+            return matchesTags && searchableText.includes(normalizedQuery);
+          });
 
     if (sortMode === "default") return matchingGames;
 
@@ -55,7 +72,7 @@ export default function GamesPage() {
 
       return sortMode === "newest" ? secondTime - firstTime : firstTime - secondTime;
     });
-  }, [selectedTags, sortMode]);
+  }, [searchQuery, selectedTags, sortMode]);
 
   const toggleTag = (tag: string) => {
     setSelectedTags((currentTags) =>
@@ -79,28 +96,49 @@ export default function GamesPage() {
                 </span>
               </div>
 
-              <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-                <span className="font-KD text-sm font-bold text-black/55">Sort by</span>
-                <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-black/10 bg-white p-1 shadow-inner">
-                  {sortOptions.map((option) => {
-                    const selected = sortMode === option.value;
+              <div className="flex flex-col gap-3 xl:flex-row xl:items-end">
+                <label className="flex min-w-0 flex-col gap-2 sm:min-w-[19rem]">
+                  <span className="font-KD text-sm font-bold text-black/55">
+                    Search games
+                  </span>
+                  <div className="flex items-center gap-2 rounded-lg border border-black/10 bg-white px-3 shadow-inner transition focus-within:border-[#058B8B]/60">
+                    <span
+                      aria-hidden="true"
+                      className="relative size-3.5 shrink-0 rounded-full border-2 border-black/30 after:absolute after:left-[9px] after:top-[9px] after:h-1.5 after:w-0.5 after:-rotate-45 after:rounded-full after:bg-black/30"
+                    />
+                    <input
+                      type="search"
+                      value={searchQuery}
+                      onChange={(event) => setSearchQuery(event.target.value)}
+                      placeholder="Title, creator, genre or tag"
+                      className="min-w-0 flex-1 bg-transparent py-2.5 font-KD text-sm font-bold text-black outline-none placeholder:font-normal placeholder:text-black/35"
+                    />
+                  </div>
+                </label>
 
-                    return (
-                      <button
-                        key={option.value}
-                        type="button"
-                        onClick={() => setSortMode(option.value)}
-                        aria-pressed={selected}
-                        className={`min-w-[5rem] rounded-md px-3 py-2 font-KD text-sm font-bold transition ${
-                          selected
-                            ? "bg-[#00c8b0] text-black shadow-sm"
-                            : "text-black/60 hover:bg-black/5 hover:text-black"
-                        }`}
-                      >
-                        {option.label}
-                      </button>
-                    );
-                  })}
+                <div className="flex flex-col gap-2">
+                  <span className="font-KD text-sm font-bold text-black/55">Sort by</span>
+                  <div className="grid grid-cols-3 overflow-hidden rounded-lg border border-black/10 bg-white p-1 shadow-inner">
+                    {sortOptions.map((option) => {
+                      const selected = sortMode === option.value;
+
+                      return (
+                        <button
+                          key={option.value}
+                          type="button"
+                          onClick={() => setSortMode(option.value)}
+                          aria-pressed={selected}
+                          className={`min-w-[5rem] rounded-md px-3 py-2 font-KD text-sm font-bold transition ${
+                            selected
+                              ? "bg-[#00c8b0] text-black shadow-sm"
+                              : "text-black/60 hover:bg-black/5 hover:text-black"
+                          }`}
+                        >
+                          {option.label}
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
               </div>
             </div>
@@ -150,7 +188,7 @@ export default function GamesPage() {
           <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {filteredGames.map((game) => (
               <a
-                key={game.href}
+                key={game.id}
                 href={game.href}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -218,7 +256,7 @@ export default function GamesPage() {
           </div>
         ) : (
           <div className="flex min-h-[220px] items-center justify-center rounded-lg border border-black/10 bg-black/5 p-8 text-center font-KD text-black/60">
-            No games match every selected tag.
+            No games match your search and selected tags.
           </div>
         )}
       </main>
